@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Skyline300/2122s1-backend-bare-template/issues"
   },
-  "homepage": "https://github.com/Skyline300/2122s1-backend-bare-template#readme"
+  "homepage": "https://github.com/Skyline300/2122s1-backend-bare-template#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^8.6.0"
+  }
 }
