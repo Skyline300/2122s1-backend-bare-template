@@ -1,6 +1,8 @@
 const { app } = require('./app');
 // after: const { app } = require('./app');
 const queueRoute = require('./routes/queue_route');
+// after: const queueRoute = require('./routes/queue_route');
+const { ERROR_CODE, ...errors } = require('./errors');
 
 app.get('/', function (req, res, next) {
     return {
